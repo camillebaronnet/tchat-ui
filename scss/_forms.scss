@@ -1,0 +1,15 @@
+.chat-container .dialog{
+
+    input,
+    textarea{
+        width:100%;
+        outline:0;
+        border:1px solid transparent;
+        display: block;
+    }
+
+    textarea{
+        resize: vertical;
+    }
+
+}

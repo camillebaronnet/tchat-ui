@@ -1,0 +1,24 @@
+.chat-container .dialog {
+
+    &:after, &:before {
+        content: '';
+        clear: both;
+    }
+
+    float: left;
+    display: block;
+    width: 360px;
+    background: #fff;
+    margin: 20px 0;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+
+    &.query {
+        float: right;
+    }
+
+    strong{
+        font-weight: 600;
+    }
+
+}

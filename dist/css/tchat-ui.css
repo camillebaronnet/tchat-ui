@@ -1,0 +1,141 @@
+/*!
+ * TChat UI (https://github.com/)
+ */
+.chat-container * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box; }
+
+/* Wrapper */
+.chat-container {
+  max-width: 600px;
+  margin: 0 auto; }
+
+.chat-container .block-info {
+  clear: both;
+  text-align: center;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 15px;
+  color: #b3b3b3;
+  font-family: Georgia; }
+
+.chat-container .block-info a {
+  text-decoration: underline;
+  color: inherit; }
+
+/* Elements */
+.chat-container .dialog hr {
+  height: 1px;
+  background: #e6e6e6;
+  margin: 20px 0; }
+
+.chat-container .dialog {
+  float: left;
+  display: block;
+  width: 360px;
+  background: #fff;
+  margin: 20px 0;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 4px; }
+  .chat-container .dialog:after, .chat-container .dialog:before {
+    content: '';
+    clear: both; }
+  .chat-container .dialog.query {
+    float: right; }
+  .chat-container .dialog strong {
+    font-weight: 600; }
+
+.chat-container .dialog header {
+  border-bottom: 1px solid; }
+
+.chat-container .dialog footer {
+  border-top: 1px solid; }
+
+.chat-container .dialog section,
+.chat-container .dialog header,
+.chat-container .dialog footer {
+  padding: 20px;
+  border-color: #e6e6e6; }
+
+.chat-container .dialog h2,
+.chat-container .dialog h3,
+.chat-container .dialog h4,
+.chat-container .dialog h5 {
+  margin-bottom: 1em;
+  font-size: 1.4em; }
+
+.chat-container .dialog h3 {
+  font-size: 1.2em; }
+
+.chat-container .dialog h4 {
+  font-size: 1.1em; }
+
+.chat-container .dialog p {
+  margin-bottom: 1.2em; }
+
+.chat-container .dialog strong {
+  font-weight: 600; }
+
+.chat-container .dialog blockquote {
+  margin: 20px -20px;
+  font-family: Georgia, serif;
+  line-height: 1.45em;
+  padding: 20px;
+  background: #f3f3f3;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6; }
+  .chat-container .dialog blockquote:before {
+    content: '\201C';
+    font-size: 7em;
+    float: right;
+    display: block;
+    line-height: 0.0em;
+    margin-right: 24px;
+    margin-top: 57px;
+    color: #ccc; }
+
+.chat-container .dialog input,
+.chat-container .dialog textarea {
+  width: 100%;
+  outline: 0;
+  border: 1px solid transparent;
+  display: block; }
+
+.chat-container .dialog textarea {
+  resize: vertical; }
+
+.chat-container .dialog .btn-close {
+  float: right;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  cursor: pointer;
+  background: #fff;
+  transition: background .5s;
+  outline: 0; }
+  .chat-container .dialog .btn-close:hover {
+    background: #e6e6e6; }
+
+.chat-container .dialog table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  font-family: Georgia, serif;
+  font-size: 0.9em; }
+  .chat-container .dialog table th {
+    font-weight: 600;
+    text-align: left; }
+  .chat-container .dialog table th, .chat-container .dialog table td {
+    padding: 6px 3px; }
+  .chat-container .dialog table td {
+    border-top: 1px solid #e6e6e6; }
+
+.chat-container .dialog .media {
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: 20px; }
