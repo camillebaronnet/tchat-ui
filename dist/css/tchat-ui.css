@@ -1,6 +1,19 @@
 /*!
- * TChat UI (https://github.com/)
+ * TChat UI (https://github.com/camillebaronnet/tchat-ui)
  */
+.chat-container .block-info {
+  clear: both;
+  text-align: center;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 15px;
+  color: #b3b3b3;
+  font-family: Georgia; }
+
+.chat-container .block-info a {
+  text-decoration: underline;
+  color: inherit; }
+
 .chat-container * {
   margin: 0;
   padding: 0;
@@ -15,25 +28,6 @@
   max-width: 600px;
   margin: 0 auto; }
 
-.chat-container .block-info {
-  clear: both;
-  text-align: center;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
-  padding: 15px;
-  color: #b3b3b3;
-  font-family: Georgia; }
-
-.chat-container .block-info a {
-  text-decoration: underline;
-  color: inherit; }
-
-/* Elements */
-.chat-container .dialog hr {
-  height: 1px;
-  background: #e6e6e6;
-  margin: 20px 0; }
-
 .chat-container .dialog {
   float: left;
   display: block;
@@ -45,6 +39,9 @@
   .chat-container .dialog:after, .chat-container .dialog:before {
     content: '';
     clear: both; }
+  @media screen and (max-width: 360px) {
+    .chat-container .dialog {
+      width: 100%; } }
   .chat-container .dialog.query {
     float: right; }
   .chat-container .dialog strong {
@@ -98,6 +95,11 @@
     margin-right: 24px;
     margin-top: 57px;
     color: #ccc; }
+
+.chat-container .dialog hr {
+  height: 1px;
+  background: #e6e6e6;
+  margin: 20px 0; }
 
 .chat-container .dialog input,
 .chat-container .dialog textarea {
