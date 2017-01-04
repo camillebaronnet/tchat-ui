@@ -1,0 +1,18 @@
+{
+  "name": "tchat-ui",
+  "description": "CSS framework for developing responsive tchat",
+  "main": "scss/tchat-ui.scss",
+  "authors": [
+    "Camille Baronnet <npm@camillebaronnet.fr>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/camillebaronnet/tchat-ui",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
