@@ -41,7 +41,8 @@
     clear: both; }
   @media screen and (max-width: 360px) {
     .chat-container .dialog {
-      width: 100%; } }
+      width: 85%;
+      font-size: 0.9em; } }
   .chat-container .dialog.query {
     float: right; }
   .chat-container .dialog strong {
