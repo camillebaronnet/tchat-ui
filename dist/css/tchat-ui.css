@@ -119,6 +119,7 @@
   border-radius: 100%;
   cursor: pointer;
   background: #fff;
+  -webkit-transition: background .5s;
   transition: background .5s;
   outline: 0; }
   .chat-container .dialog .btn-close:hover {
