@@ -9,11 +9,10 @@ Demo : https://camillebaronnet.github.io/tchat-ui/example.html
 
 ## Installation
 
-You can clone this repo, [download](https://github.com/camillebaronnet/tchat-ui/archive/master.zip) the master branch or use [Bower](https://bower.io/) :
-
-```bash
-$ bower install camillebaronnet/tchat-ui
-```
+* [Download the master banch](https://github.com/camillebaronnet/tchat-ui/archive/master.zip)
+* Clone the repo: <code>git clone https://github.com/camillebaronnet/tchat-ui.git</code>
+* Install with [npm](https://www.npmjs.com/): <code>npm install tchat-ui</code>
+* Install with [Bower](https://bower.io/): <code>bower install camillebaronnet/tchat-ui</code>
 
 ## Copyright and license
 
