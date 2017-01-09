@@ -2,7 +2,6 @@
   "name": "tchat-ui",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "dependencies": {
     "gulp-sass": "^3.0.0"
   },
@@ -17,5 +16,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Camille Baronnet <npm@camillebaronnet.fr>",
-  "license": "ISC"
+  "license": "MIT"
 }
